@@ -2,16 +2,16 @@
 #include<cmath>
 using namespace std;
 #define PI 3.14
-float dien_tich(int r);
+float dien_tich(float r);
 
 int main()
 {
-	int r;
+	float r;
 	cin >> r;
 	cout << dien_tich(r);
 }
 
-float dien_tich(int r)
+float dien_tich(float r)
 {
 	float s = PI * pow(r, 2);
 	return s;
