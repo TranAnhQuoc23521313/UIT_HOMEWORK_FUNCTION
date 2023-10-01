@@ -2,17 +2,17 @@
 #include<cmath>
 using namespace std;
 
-int phep_nhan(int x);
+int phep_nhan(float x);
 
 int main()
 {
-	int x;
+	float x;
 	cin >> x;
 	cout << phep_nhan(x);
 	return 0;
 }
 
-int phep_nhan(int x)
+int phep_nhan(float x)
 {
 	int x2 = x * x;
 	int x4 = x2 * x2;
