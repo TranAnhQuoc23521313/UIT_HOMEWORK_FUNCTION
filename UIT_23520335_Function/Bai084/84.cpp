@@ -13,7 +13,7 @@ int main()
 	return 0;
 }
 
-float tong(int x, int n)
+float tong(float x, int n)
 {
 	float s = 0;
 	float t = x;
