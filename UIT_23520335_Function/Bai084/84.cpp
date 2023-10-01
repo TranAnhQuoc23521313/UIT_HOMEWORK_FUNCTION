@@ -2,11 +2,12 @@
 #include<cmath>
 using namespace std;
 
-float tong(int x, int n);
+float tong(float x, int n);
 
 int main()
 {
-	int x, n;
+	float x;
+	int n;
 	cin >> x >> n;
 	cout << tong(x, n);
 	return 0;
