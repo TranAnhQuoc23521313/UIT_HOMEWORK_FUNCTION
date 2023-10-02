@@ -14,7 +14,7 @@ int main()
 
 void liet_ke_uoc_so(int n)
 {
-	int s = 0;
+	float s = 0;
 	int i = 1;
 	while (i <= n)
 	{
