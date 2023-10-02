@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 #define PI 3.14
-float the_tich(float r);
+float the_tich(float );
 
 int main()
 {
