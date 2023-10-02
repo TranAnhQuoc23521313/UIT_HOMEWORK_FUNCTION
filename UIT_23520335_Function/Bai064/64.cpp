@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int chu_so_lon_nhat(int n);
+float chu_so_lon_nhat(int n);
 
 int main()
 {
@@ -12,10 +12,10 @@ int main()
 	return 0;
 }
 
-int chu_so_lon_nhat(int n)
+float chu_so_lon_nhat(int n)
 {
-	int lc = n % 10;
-	int t = n;
+	float lc = n % 10;
+	float t = n;
 	while (t != 0)
 	{
 		int dv = t % 10;
