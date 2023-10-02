@@ -2,17 +2,18 @@
 #include<cmath>
 using namespace std;
 
-float tong(int x, int n);
+float tong(float, int);
 
 int main()
 {
-	int x, n;
+	float x;
+	int n;
 	cin >> x >> n;
 	cout << tong(x, n);
 	return 0;
 }
 
-float tong(int x, int n)
+float tong(float x, int n)
 {
 	float s = 1 + x;
 	int t = x;
