@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-float doi_do(float c);
+float doi_do(float );
 
 int main()
 {
