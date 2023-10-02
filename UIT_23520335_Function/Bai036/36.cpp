@@ -2,19 +2,21 @@
 #include<cmath>
 using namespace std;
 
-int tich(int x, int n);
+float tich(float x, int n);
 
 int main()
 {
-	int x, n;
-	cin >> x >> n;
+	float x;
+	cin >> x;
+	int n;
+	cin >> n;
 	cout << tich(x, n);
 	return 0;
 }
 
-int tich(int x, int n)
+float tich(float x, int n)
 {
-	int t = 1;
+	float t = 1;
 	int i = 1;
 	while (i <= n)
 	{
