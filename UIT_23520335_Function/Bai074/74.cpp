@@ -16,7 +16,7 @@ int main()
 float tong(float x, int n)
 {
 	float s = 0;
-	int t = 1;
+	float t = 1;
 	int m = 1;
 	int i = 1;
 	while (i <= n)
