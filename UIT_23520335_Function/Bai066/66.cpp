@@ -15,7 +15,7 @@ int main()
 void ktra_so_chan(int n)
 {
 	int flag = 0;
-	int t = n;
+	float t = n;
 	while (t != 0)
 	{
 		int dv = t % 10;
