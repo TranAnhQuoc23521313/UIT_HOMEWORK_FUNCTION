@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 #define PI 3.14
-float dien_tich(float r, int n);
+float dien_tich(float , int );
 
 int main()
 {
