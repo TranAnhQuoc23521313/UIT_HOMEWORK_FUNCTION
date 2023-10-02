@@ -2,8 +2,8 @@
 #include<cmath>
 using namespace std;
 
-float do_dai_canh(float x1, float y1, float x2, float y2);
-float chu_vi(float a, float b, float c);
+float do_dai_canh(float , float , float , float );
+float chu_vi(float , float , float );
 
 int main()
 {
