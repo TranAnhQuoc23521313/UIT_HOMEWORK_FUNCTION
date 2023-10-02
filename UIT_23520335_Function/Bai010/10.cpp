@@ -16,7 +16,7 @@ int main()
 	return 0;
 }
 
-float do_dai_canh(int x1, int y1, int x2, int y2)
+float do_dai_canh(float x1, float y1, float x2, float y2)
 {
 	return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 }
