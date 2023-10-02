@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int tong(int n);
+float tong(int n);
 
 int main()
 {
@@ -12,9 +12,9 @@ int main()
 	return 0;
 }
 
-int tong(int n)
+float tong(int n)
 {
-	int s = 0;
+	float s = 0;
 	int i = 1;
 	while (i <= n)
 	{
