@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 #define PI 3.14
-float chu_vi(float r, int n);
+float chu_vi(float , int );
 
 int main()
 {
