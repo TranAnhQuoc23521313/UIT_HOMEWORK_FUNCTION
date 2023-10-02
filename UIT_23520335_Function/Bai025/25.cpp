@@ -2,18 +2,18 @@
 #include<cmath>
 using namespace std;
 
-void hoan_vi(int& a, int& b);
+void hoan_vi(float& a, float& b);
 
 int main()
 {
-	int a, b;
+	float a, b;
 	cin >> a >> b;
 	hoan_vi(a,b);
 	cout <<"\na="<< a << "\nb=" << b;
 	return 0;
 }
 
-void hoan_vi(int& a, int& b)
+void hoan_vi(float& a, float& b)
 {
 	int temp = a;
 	a = b;
