@@ -15,7 +15,7 @@ int main()
 int dem_so(int n)
 {
 	int dem = 0;
-	int t = n;
+	float t = n;
 	while (t != 0)
 	{
 		dem++;
