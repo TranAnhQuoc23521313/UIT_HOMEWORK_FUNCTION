@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int tich(int n);
+float tich(int n);
 
 int main()
 {
@@ -12,9 +12,9 @@ int main()
 	return 0;
 }
 
-int tich(int n)
+float tich(int n)
 {
-	int t = 1;
+	float t = 1;
 	int i = 1;
 	while (i <= n)
 	{
