@@ -15,7 +15,7 @@ int main()
 int dem_cac_chu_so(int n)
 {
 	int dem = 0;
-	int t = n;
+	float t = n;
 	while (t != 0)
 	{
 		int dv = t % 10;
