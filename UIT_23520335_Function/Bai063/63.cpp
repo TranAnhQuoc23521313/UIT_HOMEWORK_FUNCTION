@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int tich_cac_chu_so(int n);
+float tich_cac_chu_so(int n);
 
 int main()
 {
@@ -12,10 +12,10 @@ int main()
 	return 0;
 }
 
-int tich_cac_chu_so(int n)
+float tich_cac_chu_so(int n)
 {
-	int tich = 1;
-	int t = n;
+	float tich = 1;
+	float t = n;
 	while (t != 0)
 	{
 		int dv = t % 10;
