@@ -2,22 +2,22 @@
 #include<cmath>
 using namespace std;
 
-int phep_nhan(int x);
+float phep_nhan(float x);
 
 int main()
 {
-	int x;
+	float x;
 	cin >> x;
 	cout << phep_nhan(x);
 	return 0;
 }
 
-int phep_nhan(int x)
+float phep_nhan(float x)
 {
-	int x2 = x * x;
-	int x4 = x2 * x2;
-	int x8 = x4 * x4;
-	int x16 = x8 * x8;
-	int x32 = x16 * x16;
+	float x2 = x * x;
+	float x4 = x2 * x2;
+	float x8 = x4 * x4;
+	float x16 = x8 * x8;
+	float x32 = x16 * x16;
 	return x32;
 }
