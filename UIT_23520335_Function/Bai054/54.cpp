@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int tong_uoc_so(int n);
+float tong_uoc_so(int n);
 
 int main()
 {
@@ -12,9 +12,9 @@ int main()
 	return 0;
 }
 
-int tong_uoc_so(int n)
+float tong_uoc_so(int n)
 {
-	int s = 0;
+	float s = 0;
 	int i = 2;
 	while (i <= n)
 	{
