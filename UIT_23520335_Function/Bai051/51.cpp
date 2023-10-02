@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-int liet_ke_uoc_so(int n);
+float liet_ke_uoc_so(int n);
 
 int main()
 {
@@ -12,9 +12,9 @@ int main()
 	return 0;
 }
 
-int liet_ke_uoc_so(int n)
+float liet_ke_uoc_so(int n)
 {
-	int t = 1;
+	float t = 1;
 	int i = 1;
 	while (i <= n)
 	{
